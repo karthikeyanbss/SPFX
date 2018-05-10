@@ -1,0 +1,12 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "wb-services-reminder-events-client-side-solution",
+    "id": "0818628f-a381-4139-9d87-23d8b72b634d",
+    "version": "1.0.0.0",
+    "skipFeatureDeployment": true
+  },
+  "paths": {
+    "zippedPackage": "solution/wb-services-reminder-events.sppkg"
+  }
+}

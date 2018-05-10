@@ -1,0 +1,25 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "reminder-events-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/reminderEvents/ReminderEventsWebPart.js",
+          "manifest": "./src/webparts/reminderEvents/ReminderEventsWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {
+    "jquery": {
+      "path": "https://code.jquery.com/jquery-3.2.1.min.js",
+      "globalName": "jQuery"
+    },//npm install @types/jquery@2.0.47 --save
+    "moment": "https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.20.1/moment.min.js"
+     //npm install @types/moment --save
+  },
+  "localizedResources": {
+    "ReminderEventsWebPartStrings": "lib/webparts/reminderEvents/loc/{locale}.js"
+  }
+}
